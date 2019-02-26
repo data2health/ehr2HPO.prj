@@ -1,7 +1,8 @@
 # HPO 2 EHR
 
 ## Problem statement
-``Please include a Project Statement on your landing page. Your problem statement should be in the form of: What can CTSAs/the community not do now, that would be addressed by this project's success? A problem statement should be a clear vision and the overall method that will be used to solve the problem at hand. ``
+
+This tool converts FHIR/LOINC encoded laboratory test results as HPO codes; here we extend the conversion to other phenotype sources in the EHR.
 
 ## Project description
 
