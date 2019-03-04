@@ -1,3 +1,3 @@
-#Engagement
+# Engagement
 
 This work can be divided into two major portions. The first is the EHR structure modeling in order to support the conversion of data modalities/types to HPO; the second is demonstration within EHR systems that the extension of LOINC2HPO to more data sources in the EHR functions in analytics. The former is amenable to CTSA hub participation more than the latter during this phase of work, though we will certainly welcome hubs to participate in not only the former aspects but if they are keen on that then they themselves can participate in the evaluation on their own data. We will look for CTSA hubs that have distributed data in multiple data models to date, as they might have greater readiness to participate in these activities.
