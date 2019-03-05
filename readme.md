@@ -12,8 +12,6 @@ In the next six months, we will follow a series of steps to harden the code, tes
 
 ## Contact person
 
-We require a contact person for each project for administrative purposes. Each project should also have a CD2H Program director assigned.
-
 Point person (github handle) | Site | Program Director
 ----------|--------------|---------------
 Peter Robinson (@pnrobinson) | JAX | Chris Chute (@cgchute)
