@@ -45,19 +45,14 @@ https://github.com/monarch-initiative/loinc2hpo
 See https://github.com/data2health/hpo2ehr.prj/milestones
 
 
-````
 ## Education
-````
-See [education.md](https://github.com/data2health/project-repo-template/blob/master/education.md) for details. Each project should have Education-realated issues, that can be tagged with the "education" tag. 
-````
-## Get involved
-We encourage the community to get involved. 
 
-````
-We require all CD2H projects to have non-CD2H CTSA participants, as CD2H is a CTSA coordinating center. Each project should include an Engagement plan file, example [here](https://github.com/data2health/project-repo-template/blob/master/engagement.md). 
+See https://github.com/data2health/hpo2ehr.prj/education
 
-Please tag any engagment related issues with "engagement".
-````
+
+## Engagement
+See https://github.com/data2health/hpo2ehr.prj/engagement
+
 
 ## Working documents
 Documentation may be natively in GitHub using the wiki or .md files in the appropriate folder, or in Google Drive.
