@@ -18,8 +18,6 @@ Peter Robinson (@pnrobinson) | JAX | Chris Chute (@cgchute)
 
 ## Leads 
 
-``Project scientific leadership, should be 1-3 persons. ``
-
 Lead(s) (github handle) | Site
 ----------|--------------|
 Peter Robinson (@pnrobinson) | JAX
@@ -37,11 +35,14 @@ https://github.com/TheJacksonLaboratory/loinc2hpoAnnotation
 https://github.com/monarch-initiative/loinc2hpo
 
 ## Deliverables
-`` Each project should propose one or more deliverables. Examples: a released code package, a best practices document, a final survey, a set of survey results, etc.``
+* Initial publication (preprint here: https://www.biorxiv.org/content/10.1101/519231v1?rss=1), journla publication currently under review
+* Annotations of LOINC terms/results to HPO terms: https://github.com/TheJacksonLaboratory/loinc2hpoAnnotation
+* Code for SMART on FHIR app:
+* 
 
 ## Milestones 
 
-In progress see https://github.com/data2health/hpo2ehr.prj/milestones
+See https://github.com/data2health/hpo2ehr.prj/milestones
 
 
 ````
