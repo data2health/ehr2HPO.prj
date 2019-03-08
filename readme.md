@@ -47,18 +47,10 @@ See https://github.com/data2health/hpo2ehr.prj/milestones
 
 ## Education
 
-See https://github.com/data2health/hpo2ehr.prj/education
+See  [here](education.md)
 
 
 ## Engagement
-See https://github.com/data2health/hpo2ehr.prj/engagement
+See [here](engagement.md)
 
 
-## Working documents
-Documentation may be natively in GitHub using the wiki or .md files in the appropriate folder, or in Google Drive.
-[Documentating projects in Github](https://guides.github.com/features/wikis/)
-
-[The project Google drive folder](https://drive.google.com/drive/u/0/folders/1vLp-H32KTNobiZF2cK82At90S6dVJNUf) is accessible to onboarded participants. 
-
-## Slack room
-The project slack room is accessible to onboarded participants. You will not automatically be added to the Slack room, you will be invited after onboarding at the link above.
