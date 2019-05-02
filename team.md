@@ -3,7 +3,6 @@
 ## Lead(s)
 Name | GitHub Handle | Site
 -- | -- | --
-Ammar Chaudhry | [informatics](https://github.com/achaudhry615/informatics) | COH
 Peter Robinson | [pnrobinson](http://github.com/pnrobinson) | JAX
 Harold Solbrig | [hsolbrig](http://github.com/hsolbrig) | JHU
 
@@ -11,6 +10,7 @@ Harold Solbrig | [hsolbrig](http://github.com/hsolbrig) | JHU
 Name | GitHub Handle | Site
 -- | -- | --
 Hannah Blau | [hannahblau](http://github.com/hannahblau) | JAX
+Ammar Chaudhry | [informatics](https://github.com/achaudhry615/informatics) | COH
 Christopher Chute | [cgchute](https://github.com/cgchute) | JHU
 Mike Gargano | [iimpulse](http://github.com/iimpulse) | JAX
 Ken Gersing | [KenGersing](https://github.com/KenGersing) | NCATS
