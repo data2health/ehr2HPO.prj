@@ -2,39 +2,28 @@
 Don't edit this - the RPPR generator populates this section
 
 # Research Design
-**EXAMPLE FROM SCITS:**
-Finding resources of translational relevancy across the CTSA program. This platform aims to reveal and connect expertise, services, educational resources, datasets, software tools, and other translational artifacts.
+Electronic Health Record (EHR) systems typically define laboratory test results using the Laboratory Observation Identifier Names and Codes (LOINC) and can transmit them using Fast Healthcare Interoperability Resource (FHIR) standards. LOINC has not yet been semantically integrated with computational resources for phenotype analysis. The Human Phenotype Ontology (HPO) is a freely available and open source logically defined vocabulary for describing human abnormal phenotypes. The HPO has become the de facto standard for computational phenotype analysis in genomics and rare disease, being used by the NIH Undiagnosed Diseases Network, the 100,000 Genomes project, and many other academic, clinical, and commercial entities. The HPO currently contains 14,184 terms (February, 2019) including a comprehensive representation of laboratory abnormalities such as Hyperglycemia, Thrombocytopenia, and Increased urine alpha-ketoglutarate concentration. In this project, we have developed software to encode the outcome of LOINC-encoded laboratory tests as HPO codes. We have develop a FHIR interface and a SMART on FHIR demonstration app. Our software can be used to characterize the spectrum of lab abnormalities identified in a single patient encounter or to analyze a cohort of patients, for example, to search for biomarkers.
+In this project, we propose to use our resources that map the outcomes of LOINC-encoded laboratory tests to HPO terms to address two challenges in EHR-driven research: (i) Biomarker identification and (ii) Clustering (Stratification) of diseases into subgroups. The current proposal is a pilot project that concentrates on biomarker identification but also lays the foundation for subgroup clustering.
+
 # Methodology
-**EXAMPLE FROM SCITS:** 
-Organizations expend substantial effort maintaining local databases of effectively the same data - people, publications, grants, etc. and the challenge of scholar disambiguation and longitudinal data collection and tracking remains unsolved. The Science of translational science platform performs large-scale data integration from a large variety of sources using both structured and unstructured information. These data elements are indexed using semantic technologies for querying and discovery. A user interface will allow querying and exploration. Finally, widgets will be built to deliver context-specific content to CTSA hubs, CLIC Forums, the Compeititions review software, etc.
+Detailed methods are available in the protocol document available on this projects GitHub repository (https://github.com/data2health/ehr2HPO.prj). In brief, we propose two approaches to use and extend our existing LOINC2HPO software with data from CD2H and non-CD2H CTSAs. Our first approach involves the extraction of LOINC and HPO terms much the same as we did in the original publication (npj Digital Medicine Volume 2, Article number: 32; 2019). We will then apply a statistical approach that is based on mutual information content and synergy networks to search for disease-specific biomarkers. We anticipate that we will complete this project within the coming 12 month period. We will additionally implement a clustering procedure that has the goal of identifying reproducible phenotype-driven disease stratifications that are consistent across multiple CTSAs.
+We are planning on developing and validating the algorithms using two datasets (an asthma patient dataset from UNC and an intensive care unit patient from MIT) and then applying them to a ca. 2,2 million patient dataset at JHU. We have initiated discussions with CTSAs that expressed interest and anticipate that we will be able to apply our analysis at at least one additional center.
 
-A shared data environment in the form of a warehouse of research data was strongly endorsed by participants in the most recent PEA Community meeting. Collaborative population and maintenance of common data would reduce local hub effort, improve data quality, and serve as an exemplar of collaborative activity for the CTSA program and NIH programs overall. Substantial effort has been spent on this topic by hubs establishing priorities and developing manual and semi-automated processes which can help to guide efforts toward automation.
-
-The 4DM Project (Drug Discovery, Development and Deployment Map) created by NCATS has generated substantial interest in understanding the interdependencies of translational research and the entities involved. The 4DM prototype will be extended to incorporate relevant backing data from the data warehouse to display when selecting a vertex in the visualization graph. Ultimately, we can leverage these data for a variety of purposes at hubs, including workflows for improved data quality, process efficiency, automation, benchmarking, etc.
-
-We will use the Science of Translational Science Platform to demonstrate addressing the common CTSA need of longitudinal scholar data tracking and reporting.
 # Expected Outcomes
-**EXAMPLE FROM SCITS:**
-The primary outcomes for this project are:
-* a warehouse integrating the spectrum of expertise and services described above, and
-* a suite of services that hubs and others (e.g. CLIC) can interrogate and/or embed into their local information environments.
+1. Implementation of  mutual information content and synergy network algorithm to extend LOINC2HPO project (Java)
+2. Implementation of phenotype-driven disease stratification to extend LOINC2HPO project (Java)
+3. Pilot analysis of MIMIC3 publicly available dataset
+4. Analysis of JHU dataset
+5. Analysis of at least one additional CTSA dataset (phenotype-driven disease stratification)
+
 # Timeline (monthly)
-**EXAMPLE FROM SCITS:**
-* 6/1 - Version 1 of the SciTS warehouse, including connectivity via JDBC and GraphQL interfaces, and content including CD2H resources/status, NIH FOAs, ClinicalTrials.gov personnel/expertise, REDCap instrument libraries, CTSA-relevant GitHub repositories/personnel/expertise
-* 6/1 - Integration of the data generated by the WashU CDEK regarding disambiguated organizations, molecules, etc. from ClinicalTrials.gov into SciTS warehouse
-* 6/1 - Landscape analysis of scholar reporting best practices
-* 8/1 - Deployment of a set of researcher disambiguation services using tools from Harvard, Weill Cornell and Iowa linking hubs and their investigators to publications and grants
-* 9/1 - Full expansion to semantic search within 4DM (via UMLS CUIs) with the CD2H faceted search engine
-* 9/20 - Scholar tracking uidebook, dashboard, use cases
-* 1/1 - Deployment of CTSA hub service catalog in the CD2H faceted search engine
-* 1/1 - Coverage of CTSA hub web content harvesting to include partner organizations
-* 1/1 -  v. 2.0 of warehouse deployed (incl. Hub service catalog and expanded set of widgets)
+1. Planning/architecture of mutual information content algorithm (M1)
+2. Implementation of initial version of mutual information content (M2)
+3. Analysis of MIMIC3 dataset (M3)
+4. Analysis of JHU dataset (M4-M6)
+5. Second half of 12 month period -- depending on results, we will write a manuscript. We will make the code available open source on GitHub. We will plan/architect and implement the phenotype-driven disease stratification algorithm and test it on JHU/CTSA data
 
 # Potential Pitfalls and Alternative Strategies
-**EXAMPLE FROM SCITS:**
-A substantial number of external sources are already being regularly harvested and integrated into SciTS: educational resources (DIAMOND, N-Lighten, BD2K GitHub repositories), data repositories (e.g., DataCite), GitHub repositories, etc. - significantly reducing the overall risk to success in populating SciTS. Key outstanding potential challenges include:
-* successful harmonization of educational resources, simplifying the current diversity of their descriptions,
-* formulation of an effective descriptive framework for services provided by CTSA hubs, and
-* significant services adoption by the hubs and other organizations.
+1. Data access. We will work with interested centers and IRB to obtain appropriate access. We will develop code that can be run within a center’s firewall so that no PHI sharing is required to perform the analysis.
+2. Performance of algorithms. If the algorithms do not perform as anticipated we will explore alternative algorithmic strategies. For the first algorithm, we could search for simple conditional correlation instead of conditional mutual information, for instance. For the second algorithm, there are numerous heuristics for defining features and clusters, many of which are available in software “toolkits” such as the machine learning toolkit for Java called Weka. We will define a gold standard test set with the MIMIC data and explore the performance of several algorithms.
 
-The first two involve primarily modeling and alignment with and by external teams.  We have been in continued consultation with the education platform teams and the SPARC team at MUSC to ensure our work aligns well with their plans. The last one is more demonstrating utility to the population of hubs.  We have already received strong interest from various hubs for particular services - e.g. from Medical College of Wisconsin for a service listing open funding opportunities relevant to their investigator profiles and from Wisconsin-Madison for a service listing W-M personnel active on CD2H projects.  We will continue to recruit suggestions from hubs for services seen as high value to their local environment.
