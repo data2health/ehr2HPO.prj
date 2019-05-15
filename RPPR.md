@@ -10,17 +10,17 @@ Detailed methods are available in the protocol document available on this projec
 We are planning on developing and validating the algorithms using two datasets (an asthma patient dataset from UNC and an intensive care unit patient from MIT) and then applying them to a ca. 2,2 million patient dataset at JHU. We have initiated discussions with CTSAs that expressed interest and anticipate that we will be able to apply our analysis at at least one additional center.
 
 # Expected Outcomes
-1. Implementation of  mutual information content and synergy network algorithm to extend LOINC2HPO project (Java)
-2. Implementation of phenotype-driven disease stratification to extend LOINC2HPO project (Java)
-3. Pilot analysis of MIMIC3 publicly available dataset
-4. Analysis of JHU dataset
-5. Analysis of at least one additional CTSA dataset (phenotype-driven disease stratification)
+1. Implementation of  mutual information content and synergy network algorithm to extend LOINC2HPO project (Java). The detailed implementation method is described here: https://docs.google.com/document/d/1ydNi9X8E-Fb-xdbEzN7mDq6vhrheXFcZ4xBOo30Qwoc/edit?usp=sharing
+2. Implementation of phenotype-driven disease stratification to extend LOINC2HPO project (Java). The detailed implementation method is described here: https://docs.google.com/document/d/1ydNi9X8E-Fb-xdbEzN7mDq6vhrheXFcZ4xBOo30Qwoc/edit?usp=sharing
+3. Pilot analysis of MIMIC3 publicly available dataset. The dataset contains records on ~45,000 ICU patients, including 28 million laboratory tests. We will convert the lab tests into HPO terms. Using the results from this and the asthma dataset, we will test the algorithm implemented in 1 and 2.
+4. Analysis of JHU dataset. We will follow similar strategy as described in Step 3, but this is a much larger dataset and less biased toward specific disease cohorts. We anticipate getting HPO-encoded patient profiles for ~2.2 million patients, and obtaining conditional phenotypic associations and phenotype-based patient clusters. However, the progress of this exercise is also dependent on the speed of obtaining IRB approval and data access. 
+5. Analysis of at least one additional CTSA dataset (phenotype-driven disease stratification). The outcome is similar to Step 4, and it will allow us to compare disease strtifications across CTSA sites. The comparison methods has been described in https://docs.google.com/document/d/1ydNi9X8E-Fb-xdbEzN7mDq6vhrheXFcZ4xBOo30Qwoc/edit?usp=sharing.
 
 # Timeline (monthly)
 1. Planning/architecture of mutual information content algorithm (M1)
 2. Implementation of initial version of mutual information content (M2)
-3. Analysis of MIMIC3 dataset (M3)
-4. Analysis of JHU dataset (M4-M6)
+3. Analysis of MIMIC3 dataset (M3,4) and testing algorithms implemented in 1 and 2.
+4. Analysis of JHU dataset (M5-M7).
 5. Second half of 12 month period -- depending on results, we will write a manuscript. We will make the code available open source on GitHub. We will plan/architect and implement the phenotype-driven disease stratification algorithm and test it on JHU/CTSA data
 
 # Potential Pitfalls and Alternative Strategies
