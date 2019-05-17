@@ -37,23 +37,17 @@ https://github.com/TheJacksonLaboratory/loinc2hpoAnnotation
 https://github.com/monarch-initiative/loinc2hpo
 
 ## Deliverables
-We have listed the main deliverables of our project as GitHub [milestones](https://github.com/data2health/hpo2ehr.prj/milestones).
-
-* CD2H-wide implementation of Ehr2Hpo project
-** EHR2HPO is mplementated at each CD2H CTSA hub
-** New use cases (data quality, rare disease patient identification, new phenotyping modalities) are identified and inventoried
- 
-* LOINC data is added to HPO website
-** This will make the curated data from this project more accessible
-
-Implement the SMART on FHIR app at a CD2H site
-* Currently, the app has been used in an epic sandbox at OHSU. We would like to try the app in a "real-lfe" situation. The deliverable will be a report on what percentage of LOINC terms were covered by the analysis, new biocuration to cover gaps, and an analysis on common reasons for mapping failures.
-
-* Add Radiology to EHR2HPO
-* Create roadmap and documentation for extending HPO2LOINC to the domain of radiology
-
-* Data mining algorithm
-* A new algorithm for defining pairs of features that show correlation in the presence of a disease will be implemented and tested in Java that will be easily integrated into the existing LOINC2HPO code. (see above for description)
+Current 6 month period
+* Publication of LOINC2HPO and presentation of LOINC2HPO data on HPO website
+* Mutual information content algorithm for biomarker identification implemented in Java ready for use in CTSA sites
+* Analysis of test datasets (Asthma, ICU)
+* Implementation of algoriothm at two CTSA sites and initial analysis of results
+Subsequent six month period
+* Publication about novel algorithm and results in collaboration with CTSA sites
+* Cross-site clustering algorithm
+* Analysis of test datasets (cross-clustering)
+* Implementation of cross-site clustering at CTSA sites
+* Implementation plan for adding additional datatypes (e.g., radiology) to EHR2HPO software
 
 ## Evaluation plan
 The operational architecture evaluation plan is [here](evaluation.md).
