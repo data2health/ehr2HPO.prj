@@ -55,6 +55,9 @@ Implement the SMART on FHIR app at a CD2H site
 * Data mining algorithm
 * A new algorithm for defining pairs of features that show correlation in the presence of a disease will be implemented and tested in Java that will be easily integrated into the existing LOINC2HPO code. (see above for description)
 
+## Evaluation plan
+The operational architecture evaluation plan is [here](evaluation.md).
+
 ## Education
 
 See  [here](education.md)
