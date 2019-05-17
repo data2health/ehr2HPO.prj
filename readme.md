@@ -2,7 +2,7 @@
 
 ## Problem statement
 
-Electronic Health Record (EHR) systems typically define laboratory test results using the Laboratory Observation Identifier Names and Codes (LOINC) and can transmit them using Fast Healthcare Interoperability Resource (FHIR) standards. However, LOINC has not yet been semantically integrated with computational resources for phenotype analysis. This tool converts FHIR/LOINC encoded laboratory test results as HPO codes; here we extend the conversion to other phenotype sources in the EHR.
+Electronic health records (EHRs) contain rich phenotype information that can be utilized to stratify diseases and to develop hypotheses. Despite the great potential of EHR data, patient phenotyping from EHRs is still challenging because the phenotype information is distributed in many EHR locations (laboratories, notes, problem lists, imaging data, etc.) and since EHRs have vastly different structures across sites. This lack of integration represents a substantial barrier to widespread use of EHR data in translational research. In the first phase of this project, we developed a method for mapping LOINC-encoded laboratory test results transmitted in FHIR standards to Human Phenotype Ontology (HPO) terms ([Zhang et al. (2019) npj Digital Medicine 2:3](https://www.nature.com/articles/s41746-019-0110-4)). In the current phase of the project, we will use the software to search for biomarkers in EHR data of participating CTSA centers. In future work, we will extend the resource to additional phenotype sources in the EHR.
 
 ## Implementation protocol
 Link to GoogleDoc https://docs.google.com/document/d/1ydNi9X8E-Fb-xdbEzN7mDq6vhrheXFcZ4xBOo30Qwoc/edit?usp=sharing
