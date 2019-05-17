@@ -14,4 +14,5 @@ Mutual information algorithm | Implementation in Java | testing on Asthma datase
 Planning on a multi-CTSA project  | Workflow for coming 6 montsh | Submit IRB and other documentation (U Colorado, JHU) | n/a
 Analysis of test dataset | Initial analysis of MIMIC 3 (ICU) data | validation MI algorithm--do we find published biomarkers? Do we find more significant hits than in random permutations? |
 Analysis of CTSA data | Initial analysis of JHU/Colorado data | In depth analysis and comparison of datasets |
+Cross-site clustering | Implementation in Java | Testing on MIMIC data (permutations to simulate 2 datasets) | extend to CTSA data in subsequent project phases
 
