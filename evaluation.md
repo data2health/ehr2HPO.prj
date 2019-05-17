@@ -1,6 +1,6 @@
 # Evaluation
 
-We will perform evaluation of the results of this project depending on based on the following activities.
+We will perform evaluation of the results of this project based on the following activities.
 
 
 Functionality:
