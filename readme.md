@@ -38,10 +38,15 @@ https://github.com/monarch-initiative/loinc2hpo
 
 ## Deliverables
 Current 6 month period
-* Publication of LOINC2HPO and presentation of LOINC2HPO data on HPO website
-* Mutual information content algorithm for biomarker identification implemented in Java ready for use in CTSA sites
-* Analysis of test datasets (Asthma, ICU)
-* Implementation of algoriothm at two CTSA sites and initial analysis of results
+
+Item | Delivery
+---- | --------
+Publication of LOINC2HPO and presentation of LOINC2HPO data on HPO website | May 2019
+Mutual information content algorithm for biomarker identification implemented in Java ready for use in CTSA sites | August 2019
+Analysis of test datasets (Asthma, ICU) | September 2019
+Implementation of algorithm at two CTSA sites and initial analysis of results | September 2019
+
+
 Subsequent six month period
 * Publication about novel algorithm and results in collaboration with CTSA sites
 * Cross-site clustering algorithm
