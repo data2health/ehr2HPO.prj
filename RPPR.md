@@ -16,6 +16,25 @@ We are planning on developing and validating the algorithms using two datasets (
 4. Analysis of JHU dataset. We will follow a similar strategy as described in Step 3, but this is a much larger dataset and less biased toward specific disease cohorts. We anticipate getting HPO-encoded patient profiles for ~2.2 million patients,  obtaining conditional phenotypic associations on disease diagnosis, and obtaining phenotype-based patient clusters. However, the progress of this exercise is dependent on the speed of IRB approval and data transfer. 
 5. Analysis of at least one additional CTSA dataset (phenotype-driven disease stratification). The analysis results will be similar to Step 4. Additionally, we will get disease stratification comparisons across CTSA sites. The comparison methods has been described [here](https://docs.google.com/document/d/1ydNi9X8E-Fb-xdbEzN7mDq6vhrheXFcZ4xBOo30Qwoc/edit?usp=sharing).
 
+# Deliverables
+Current 6 month period
+
+Item | Delivery
+---- | --------
+Publication of LOINC2HPO and presentation of LOINC2HPO data on HPO website | May 2019
+Mutual information content algorithm for biomarker identification implemented in Java ready for use in CTSA sites | August 2019
+Analysis of test datasets (Asthma, ICU) | September 2019
+Implementation of algorithm at two CTSA sites and initial analysis of results | September 2019
+
+
+Subsequent six month period
+* Publication about novel algorithm and results in collaboration with CTSA sites
+* Cross-site clustering algorithm
+* Analysis of test datasets (cross-clustering)
+* Implementation of cross-site clustering at CTSA sites
+* Implementation plan for adding additional datatypes (e.g., radiology) to EHR2HPO software
+
+
 # Timeline (monthly)
 1. Planning/architecture of mutual information content algorithm (M1)
 2. Implementation of initial version of mutual information content (M2)
