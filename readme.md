@@ -44,7 +44,7 @@ Item | Delivery
 Publication of LOINC2HPO and presentation of LOINC2HPO data on HPO website | May 2019
 Mutual information content algorithm for biomarker identification implemented in Java ready for use in CTSA sites | August 2019
 Analysis of test datasets (Asthma, ICU) | September 2019
-Implementation of algorithm at two CTSA sites and initial analysis of results | September 2019
+Obtain IRB approval to implement the algorithm at two CTSA sites and start initial analysis | September 2019
 
 
 Subsequent six month period
