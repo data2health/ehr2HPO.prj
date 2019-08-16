@@ -31,13 +31,17 @@ Richard Zhu | [richard1933](https://github.com/richard1933) | JHU
 ## Mailing list only
 Name | GitHub Handle | Site
 -- | -- | --
+Michael Bales | [michaelbales1](http://github.com/michaelbales1) | Cornell
 Tom Campion | [github.com](http://github.com) | Cornell
 Jack Chang | [ab2cw](https://github.com/ab2cw) | URMC
 Connor Cook | [cgcook](https://github.com/cgcook) | OHSU
+Catherine  Craven | [github.com](http://github.com) | Icahn
 Harsha Ekanayake | [hpitawela](https://github.com/hpitawela) | Iowa
 Shahim Essaid | [ShahimEssaid](http://github.com/ShahimEssaid) | OHSU
 Tricia Francis | [tricfran](http://github.com/tricfran) | JHU
+John Franz | [github.com](http://github.com) | Icahn
 Tamas Gal | [tsgal](https://github.com/tsgal) | CCTR
+Randy Grout | [randallgrout](https://github.com/randallgrout) | Indiana
 William Hersh | [williamhersh](https://github.com/williamhersh) | OHSU
 Boyd Knosp | [boydknosp](http://github.com/boydknosp) | Iowa
 Yupu Liang | [github.com](http://github.com) | Rockefeller
