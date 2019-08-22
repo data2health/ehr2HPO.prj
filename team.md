@@ -46,6 +46,7 @@ Randy Grout | [randallgrout](https://github.com/randallgrout) | Indiana
 William Hersh | [williamhersh](https://github.com/williamhersh) | OHSU
 Boyd Knosp | [boydknosp](http://github.com/boydknosp) | Iowa
 Yupu Liang | [github.com](http://github.com) | Rockefeller
+Diego Mazzotti | [mazzottidr](https://github.com/mazzottidr) | #N/A
 Lisa O'Keefe | [LisaOKeefe1](https://github.com/LisaOKeefe1) | Northwestern
 Nitin Parikh | [github.com](http://github.com) | UCDavisHealth
 Philip Payne | [prpayne5](http://github.com/prpayne5) | WashU
