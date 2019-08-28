@@ -54,6 +54,7 @@ Svetlana Rojevsky | [github.com](http://github.com) | Tufts
 Pamela Shaw | [bioscibrarian](https://github.com/bioscibrarian) | Northwestern
 Eric Sid | [ericsid](https://github.com/ericsid) | NCATS
 Julian Solway | [jsolway](http://github.com/jsolway) | UChicago
+Juan Suarez | [github.com](http://github.com) | NYU
 Ali Torkamani | [atorkama](https://github.com/atorkama) | Scripps
 Sam Volchenboum | [volcs0](https://github.com/volcs0) | UChicago
 DuWayne Willett | [duwaynewillett](https://github.com/duwaynewillett) | UTSouthwestern
