@@ -41,7 +41,7 @@ Current 6 month period
 
 Item | Delivery
 ---- | --------
-Publication of LOINC2HPO and presentation of LOINC2HPO data on HPO website | May 2019
+Publication of LOINC2HPO in [NPJ Digit Med. 2019; PMID:31119199](https://www.ncbi.nlm.nih.gov/pubmed/31119199) and [demonstration of LOINC2HPO](https://octri.ohsu.edu/hpo_on_fhir/) | May 2019
 Mutual information content algorithm for biomarker identification implemented in Java ready for use in CTSA sites | August 2019
 Analysis of test datasets (Asthma, ICU) | September 2019
 Obtain IRB approval to implement the algorithm at two CTSA sites and start initial analysis | September 2019
