@@ -1,1 +1,11 @@
 theme: jekyll-theme-tactile
+title: Welcome to CD2H ehr2hpo Project!
+relative_links:
+  enabled: true
+  collections: true
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins:
+  - "jekyll-github-metadata"
+  - "jekyll-relative-links"
