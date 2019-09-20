@@ -1,0 +1,12 @@
+theme: jekyll-theme-tactile
+title: CD2H Ontologizing EHR
+description: Conversion of EHR data (such as LOINC) to phenotypes using ontologies such as HPO
+relative_links:
+  enabled: true
+  collections: true
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins:
+  - "jekyll-github-metadata"
+  - "jekyll-relative-links"
