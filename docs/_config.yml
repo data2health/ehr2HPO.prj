@@ -1,6 +1,6 @@
 theme: jekyll-theme-tactile
 title: CD2H Ontologizing EHR
-subtitle: Conversion of EHR data (such as LOINC) to phenotypes using ontologies such as HPO
+description: Conversion of EHR data (such as LOINC) to phenotypes using ontologies such as HPO
 relative_links:
   enabled: true
   collections: true
