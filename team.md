@@ -50,8 +50,10 @@ William Hersh | [williamhersh](https://github.com/williamhersh) | OHSU
 Vojtech Huser | [vojtechhuser](https://github.com/vojtechhuser) | NLM
 Eric Johnson Chavarria | [github.com](http://github.com) | NCI
 Boyd Knosp | [boydknosp](http://github.com/boydknosp) | Iowa
+Rebecca Laird | [github.com](http://github.com) | CLIC
 Leslie Lenert | [LAL200](https://github.com/LAL200) | MUSC
 Yupu Liang | [github.com](http://github.com) | Rockefeller
+Prasanth Manukonda | [github.com](http://github.com) | Rockefeller
 Kate Marusina | [github.com](http://github.com) | UCDavisHealth
 Diego Mazzotti | [mazzottidr](https://github.com/mazzottidr) | UPenn
 Eric Miller | [squishymedia](https://github.com/squishymedia) | SquishyMedia
